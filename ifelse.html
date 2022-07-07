@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if else statement</title>
+</head>
+
+<body>
+    <h1 id="head">An if else statement in javascript</h1>
+    <input type="text" id="inp">
+    <button onclick="pressed()">Clicks</button>
+
+
+    <script>
+        function pressed() {
+            var inp = document.getElementById("inp").value;
+            if (inp == "green") {
+                document.getElementById("head").style.color = "green";
+            } else if (inp == "red") {
+                document.getElementById("head").style.color = "red";
+            } else if (inp == "blue") {
+                document.getElementById("head").style.color = "blue";
+            } else if (inp == "yellow") {
+                document.getElementById("head").style.color = "yellow";
+            } else if (inp == "pink") {
+                document.getElementById("head").style.color = "pink";
+            } else if (inp == "orange") {
+                document.getElementById("head").style.color = "orange";
+            } else if (inp == "purple") {
+                document.getElementById("head").style.color = "purple";
+            } else {
+                document.getElementById("head").style.color = "black";
+            }
+        }
+    </script>
+</body>
+
+</html>
